@@ -1,0 +1,51 @@
+ .App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  min-height: 100vh;
+}
+
+.status-section {
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+}
+
+.status.healthy {
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+.status.error {
+  color: #f44336;
+  font-weight: bold;
+}
+
+.data-section {
+  margin: 20px 0;
+  text-align: left;
+}
+
+.data-section pre {
+  background-color: #1a1a1a;
+  padding: 15px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+.info-section {
+  margin: 20px 0;
+}
+
+.info-section code {
+  background-color: #1a1a1a;
+  padding: 10px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 10px;
+}
